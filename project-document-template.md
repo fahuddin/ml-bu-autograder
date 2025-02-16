@@ -1,6 +1,6 @@
 # Technical Project Document Template
 
-## *Josh Yip, Zach Gentile..., 2025-February-15 vx.x.x-dev*
+## *Josh Yip, Zach Gentile, Aseef, Fahim Uddin, 2025-February-15 vx.x.x-dev*
 
 ## Overview
 
@@ -51,6 +51,10 @@ AI-graded responses are logged for consistency analysis.
 ### D. Outline a path to operationalization.
 
 *Data Science Projects should have an operationalized end point in mind from the onset. Briefly describe how you see the tool produced by this project being used by the end user beyond a jupyter notebook or proof of concept. If possible, be specific and call out the relevant technologies that will be useful when making this available to the stakeholders as a final deliverable.*
+
+The Azure AI tool should be deployed in the Blackboard environment for it to retrieve the students' quiz or assignment via API. Afterwards, it should be able to grade the the student based on reference rubrics and an example of sample answers. It should also retrieve word documents, videos, images, diagrams, graphs, powerpoints to provide a grade. Afterwards, the professor should recieve two responses: the score and the explanation. 
+
+
 
 ## Resources
 
